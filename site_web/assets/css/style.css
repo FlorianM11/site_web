@@ -1,0 +1,102 @@
+html, body{
+    margin:0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+header .carousel img{
+    filter: brightness(0.5);
+    transform: translateY(-30%);
+}
+.navbar{
+    position: fixed;
+    right: 0;
+    z-index: 9999;
+    left: 0;
+    box-shadow: 0 0 10px #FFFFFF30;
+}
+
+.text-carousel{
+    position: absolute;
+    color: white;
+    top: 43%;
+    left: 25%;
+}
+
+.text-carousel h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.text-carousel h2{
+    font-weight: 600;
+    margin-left: 35%;
+    color: #F5F5F5;
+}
+
+/* MAIN */
+
+main{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+main .services{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+main .services .carte{
+    width: 30%;
+    box-shadow: 0 0 10px #FFFFFF30;
+    text-align: center;
+    padding: 3%;
+
+}
+
+main .services .carte .icon{
+    font-size: 80px;
+    margin-bottom: 20%;
+}
+
+main .services .carte p{
+    font-size: 30px;
+}
+
+main .overflow-card{
+    max-height: 300px;
+    overflow: hidden;
+    color: black;
+}
+
+main .card-text, .card-title{
+    color: white;
+}
+
+main .card{
+    border: solid 1px white;
+}
+
+main .porftolio{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+
+}
+
+main .portfolio article, main .portfolio aside{
+    width: 50%;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: white !important;
+}
+
+.form-control{
+    margin-bottom: 5%;
+    color: white;
+}
